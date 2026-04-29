@@ -20,6 +20,7 @@ if (binary===1){
 else {
     console.log("non-binary")
 }
+
 let color="yellow"
 if (color==="yellow"){
     console.log("slow-down")
@@ -29,5 +30,26 @@ else if(color==="red"){
 }
 else {
     console.log("go")
+}
+
+let isTired=true
+if (isTired===true){
+    console.log("i am tired")
+}
+else{
+    console.log("im still tired")
+}
+let grade=100
+if(grade>=90){
+    console.log("A")
+}
+else if(grade>=80){
+    console.log("B")
+}
+else if (grade>=70){
+    console.log("C")
+}
+else{
+    console.log("fail")
 }
     
